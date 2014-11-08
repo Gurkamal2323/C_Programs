@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int num[5],i,c1=0,c2=0,c3=0;
+printf("enter five numbers\n");
+for(i=0;i<=4;i++)
+{
+scanf("%d",&num[i]);
+}
+for(i=0;i<=4;i++)
+{
+if(num[i]>0)
+{
+c1=c1+1;
+}
+else if(num[i]<0)
+{
+c2=c2+1;
+}
+else if(num[i]==0)
+{
+c3=c3+1;
+}
+}
+printf("positive numbers are %d\nnegative numbers are %d\nnumber of zeros are %d\n",c1,c2,c3);
+getch();
+}

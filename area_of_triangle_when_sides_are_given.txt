@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+#include<stdlib.h>
+void main()
+{
+clrscr();
+int a,b,c,s,ar,a1;
+printf("enter 1st side ");
+scanf("%d",&a);
+printf("enter 2nd side ");
+scanf("%d",&b);
+printf("enter 3rd side ");
+scanf("%d",&c);
+s=(a+b+c)/2;
+ar=s*(s-a)*(s-b)*(s-c);
+a1=sqrt(ar);
+printf("area is %d",a1);
+getch();
+}

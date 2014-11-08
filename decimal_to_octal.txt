@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main()
+{
+clrscr();
+int n,x,rev=0,i=0;
+int x1,rev1=0;
+printf("enter an integer ");
+scanf("%d",&n);
+while(n!=0)
+{
+x=n%8;
+rev=rev*10+x;
+n=n/8;
+i++;
+}
+while(rev!=0)
+{
+x1=rev%10;
+rev1=rev1*10+x1;
+rev=rev/10;
+}
+printf("number in octal is %d",rev1);
+getch();
+}
+

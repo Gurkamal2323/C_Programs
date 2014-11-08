@@ -1,0 +1,42 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main()
+{
+clrscr();
+float m,h,h1,bmi;
+printf("enter mass in kg and height in metres ");
+scanf("%f%f",&m,&h);
+h1=h*h;
+bmi=m/h1;
+if(bmi<15.0)
+{
+printf("starvation");
+}
+else if(bmi>=15.1 && bmi<=17.5)
+{
+printf("anorexic");
+}
+else if(bmi>=17.6 && bmi<=18.5)
+{
+printf("underwieght");
+}
+else if(bmi>=18.6 && bmi<=24.9)
+{
+printf("ideal");
+}
+else if(bmi>=25.0 && bmi<=29.9)
+{
+printf("overweight");
+}
+else if(bmi>=30.0 && bmi<=39.9)
+{
+printf("obese");
+}
+else if(bmi>=40.0)
+{
+printf("morbidity obese");
+}
+getch();
+}
+

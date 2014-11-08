@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+int sum(int x,int y);
+int mul(int e,int f);
+void main()
+{
+clrscr();
+int a,b,s,m;
+printf("Enter two numbers\n");
+scanf("%d%d",&a,&b);
+s=sum(a,b);
+printf("sum is %d\n",s);
+m=mul(a,b);
+printf("Multiplication is %d",m);
+getch();
+}
+int sum(int x,int y)
+{
+int s1;
+s1=x+y;
+return(s1);
+}
+int mul(int m,int n)
+{
+int m1;
+m1=m*n;
+return(m1);
+}

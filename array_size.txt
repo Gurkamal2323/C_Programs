@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a[5]={1,2,3,4};
+int b[]={5,7};
+float c[3]={1.4,2.0};
+float d[]={1.7,2.4,3.6,4.7};
+printf("%d\n",sizeof(a));
+printf("%d\n",sizeof(b));
+printf("%d\n",sizeof(c));
+printf("%d\n",sizeof(d));
+getch();
+}

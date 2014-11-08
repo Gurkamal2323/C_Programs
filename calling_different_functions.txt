@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void hello();
+void name();
+void doing();
+void main()
+{
+clrscr();
+hello();
+name();
+doing();
+getch();
+}
+void hello()
+{
+printf("Hello\n");
+}
+void name()
+{
+printf("What is your name\n");
+}
+void doing()
+{
+printf("What are you doing");
+}

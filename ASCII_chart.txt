@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main()
+{
+clrscr();
+int i=0;
+while(i<=255)
+{
+printf("%d=%c\t",i,i);
+i++;
+}
+getch();
+}
+
+
