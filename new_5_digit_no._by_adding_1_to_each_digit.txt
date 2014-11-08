@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int n,x,n1,n2,n3,n4,n5;
+printf("enter afive digit number");
+scanf("%d",&n);
+x=n%10;
+n1=x+1;
+x=n/10;
+x=x%10;
+n2=x+1;
+x=n/100;
+x=x%10;
+n3=x+1;
+x=n/1000;
+x=x%10;
+n4=x+1;
+x=n/10000;
+x=x%10;
+n5=x+1;
+printf("new number is %d%d%d%d%d",n5,n4,n3,n2,n1);
+getch();
+}

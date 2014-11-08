@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int n=21;
+int p,c;
+while(1)
+{
+printf("Number of matches left = %d\n",n);
+printf("Pick 1,2,3 or 4\n");
+scanf("%d",&p);
+n=n-p;
+printf("Number of matches left = %d\n",n);
+c=5-p;
+printf("I picked up %d\n",c);
+n=n-c;
+if(n==1)
+{
+printf("Number of matches left %d\n",n);
+printf("You lost the game\n");
+break;
+}
+}
+getch();
+}
+

@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+int sum(int x,int y);
+void main()
+{
+clrscr();
+int a,b,s;
+printf("Enter two numbers\n");
+scanf("%d%d",&a,&b);
+s=sum(a,b);
+printf("sum is %d",s);
+getch();
+}
+int sum(int x,int y)
+{
+int s1;
+s1=x+y;
+return(s1);
+}

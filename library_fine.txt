@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int d,i,j,k;
+float f1=0.0,f2=0.0,f3=0.0,sum;
+printf("enter number of overdays ");
+scanf("%d",&d);
+if(d>=1 && d<=5)
+{
+for(i=1;i<=d;i++)
+{
+f1=f1+0.5;
+}
+}
+else if(d>=6 && d<=10)
+{
+for(j=6;j<=d;j++)
+{
+f2=f2+1.0;
+}
+}
+else if(d>=10 && d<=30)
+{
+for(k=10;k<=d;k++)
+{
+f3=f3+5.0;
+}
+}
+else if(d>30)
+{
+printf("your membership is cancelled\n");
+}
+sum=f1+f2+f3;
+printf("total fine is %f",sum);
+getch();
+}

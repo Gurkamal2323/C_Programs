@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+void asr();
+void pat();
+void chd();
+void dl();
+void mum();
+void main()
+{
+clrscr();
+printf("I am in patiala\n");
+asr();
+getch();
+}
+void asr()
+{
+printf("I am in amritsar\n");
+chd();
+}
+void chd()
+{
+printf("I am in chandigarh\n");
+dl();
+}
+void dl()
+{
+printf("I am in delhi");
+}

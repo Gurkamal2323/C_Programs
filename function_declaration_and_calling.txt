@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void hello(); /*function declaration*/
+void main()
+{
+clrscr();
+hello();/*calling function*/
+printf("How are you");
+getch();
+}
+void hello()
+{
+printf("Hello\n");
+}
